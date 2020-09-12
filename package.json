@@ -1,9 +1,10 @@
 {
   "name": "restaurant-apps",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://nfathan.github.io/restaurant-apps-fathan/",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfathan/restaurant-apps-fathan.git"
+  },
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
@@ -11,6 +12,9 @@
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build"
   },
+  "description": "",
+  "homepage": "https://nfathan.github.io/restaurant-apps-fathan/",
+  "main": "index.js",
   "keywords": [],
   "author": "your_name <your.email@domain.com>",
   "license": "ISC",
